@@ -1,6 +1,10 @@
 body{
     margin: 0;
     min-height: 100vh;
+
+    overflow: hidden;
+
+    background-image: radial-gradient(circle, rgb(52 33 56) 0%, rgb(0 0 0) 100%);
 }
 
 .outer{
@@ -40,163 +44,223 @@ body{
 }
 
 .img-box{
-    background-color: rgb(215, 219, 215,0.5) ;
+    background-color: rgba(132, 128, 143, 0.36);
 
     height: 35vmin;
     width: 25vmin;
 
     position: absolute;
 
+    display: flex;
+    justify-content: center;
+
     border: 1px solid black;
     border-radius: 10px;
+}
+.img{
+    margin-top: 5%;
+    height: 75%;
+    width: 90%;
+
+    border-radius: 10px;
+
+    object-fit: cover;
 }
 
 
 :root {
-    --z-gap: 20vmin; /* New gap value */
+    --z-gap: 20vmin; /* variable for gap value */
 }
 
 #img-1{
     transform: 
     translateZ(calc(0 * var(--z-gap)));
+
+    border: 1px solid pink;
 }
 #img-2{
     transform: 
     translateZ(calc(-1 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-5deg);
+
+    border: 1px solid aqua;
 }
 #img-3{
     transform: 
     translateZ(calc(-2  * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-10deg);
+
+    border: 1px solid lightcoral;
 }
 #img-4{
     transform: 
     translateZ(calc(-3 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-15deg);
+
+    border: 1px solid yellow;
 }
 #img-5{
     transform: 
     translateZ(calc(-4 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-20deg);
+
+    border: 1px solid red;
 }
 #img-6{
     transform: 
     translateZ(calc(-5 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-25deg);
+
+    border: 1px solid green;
 }
 #img-7{
     transform: 
     translateZ(calc(-6 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-30deg);
+
+    border: 1px solid blue;
 }
 #img-8{
     transform: 
     translateZ(calc(-7 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-35deg);
+
+    border: 1px solid yellow;
 }
 #img-9{
     transform: 
     translateZ(calc(-8 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-40deg);
+
+    border: 1px solid red;
 }
 #img-10{
     transform: 
     translateZ(calc(-9 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-45deg);
+
+    border: 1px solid blue;
 }
 #img-11{
     transform: 
     translateZ(calc(-10 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-50deg);
+
+    border: 1px solid green;
 }
 #img-12{
     transform: 
     translateZ(calc(-11 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-55deg);
+
+    border: 1px solid yellow;
 }
 #img-13{
     transform: 
     translateZ(calc(-12 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-60deg);
+
+    border: 1px solid red;
 }
 #img-14{
     transform: 
     translateZ(calc(-13 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-65deg);
+
+    border: 1px solid blue;
 }
 #img-15{
     transform: 
     translateZ(calc(-14 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-70deg);
+
+    border: 1px solid green;
 }
 #img-16{
     transform: 
     translateZ(calc(-15 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-75deg);
+
+    border: 1px solid yellow;
 }
 #img-17{
     transform: 
     translateZ(calc(-16 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-80deg);
+
+    border: 1px solid red;
 }
 #img-18{
     transform: 
     translateZ(calc(-17 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-85deg);
+
+    border: 1px solid blue;
 }
 #img-19{
     transform: 
     translateZ(calc(-18 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-90deg);
+
+    border: 1px solid green;
 }
 #img-20{
     transform: 
     translateZ(calc(-19 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-95deg);
+
+    border: 1px solid yellow;
 }
 #img-21{
     transform: 
     translateZ(calc(-20 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-100deg);
+
+    border: 1px solid red;
 }
 #img-22{
     transform: 
     translateZ(calc(-21 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-105deg);
+
+    border: 1px solid blue;
 }
 #img-23{
     transform: 
     translateZ(calc(-22 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-110deg);
+
+    border: 1px solid green;
 }
 #img-24{
     transform: 
     translateZ(calc(-23 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-115deg);
+
+    border: 1px solid yellow;
 }
 #img-25{
     transform: 
