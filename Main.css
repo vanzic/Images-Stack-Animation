@@ -88,7 +88,7 @@ body{
     transform: 
     translateZ(calc(0 * var(--z-gap)));
 
-    border: 1px solid pink;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-2{
     transform: 
@@ -96,7 +96,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-5deg);
 
-    border: 1px solid aqua;
+    border: 1px solid rgb(10, 252, 252,0.5) ;
 }
 #img-3{
     transform: 
@@ -104,7 +104,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-10deg);
 
-    border: 1px solid lightcoral;
+    border: 1px solid rgb(241, 124, 124,0.5);
 }
 #img-4{
     transform: 
@@ -112,7 +112,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-15deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-5{
     transform: 
@@ -120,7 +120,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-20deg);
 
-    border: 1px solid red;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-6{
     transform: 
@@ -128,7 +128,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-25deg);
 
-    border: 1px solid green;
+    border: 1px solid rgb(139, 239, 139,0.5);
 }
 #img-7{
     transform: 
@@ -136,7 +136,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-30deg);
 
-    border: 1px solid blue;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-8{
     transform: 
@@ -144,7 +144,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-35deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-9{
     transform: 
@@ -152,7 +152,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-40deg);
 
-    border: 1px solid red;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-10{
     transform: 
@@ -160,7 +160,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-45deg);
 
-    border: 1px solid blue;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-11{
     transform: 
@@ -168,7 +168,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-50deg);
 
-    border: 1px solid green;
+    border: 1px solid rgb(139, 239, 139,0.5);
 }
 #img-12{
     transform: 
@@ -176,7 +176,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-55deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-13{
     transform: 
@@ -184,7 +184,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-60deg);
 
-    border: 1px solid red;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-14{
     transform: 
@@ -192,7 +192,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-65deg);
 
-    border: 1px solid blue;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-15{
     transform: 
@@ -200,7 +200,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-70deg);
 
-    border: 1px solid green;
+    border: 1px solid rgb(139, 239, 139,0.5);
 }
 #img-16{
     transform: 
@@ -208,7 +208,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-75deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-17{
     transform: 
@@ -216,7 +216,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-80deg);
 
-    border: 1px solid red;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-18{
     transform: 
@@ -224,7 +224,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-85deg);
 
-    border: 1px solid blue;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-19{
     transform: 
@@ -232,7 +232,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-90deg);
 
-    border: 1px solid green;
+    border: 1px solid rgb(139, 239, 139,0.5);
 }
 #img-20{
     transform: 
@@ -240,7 +240,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-95deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-21{
     transform: 
@@ -248,7 +248,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-100deg);
 
-    border: 1px solid red;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-22{
     transform: 
@@ -256,7 +256,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-105deg);
 
-    border: 1px solid blue;
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 #img-23{
     transform: 
@@ -264,7 +264,7 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-110deg);
 
-    border: 1px solid green;
+    border: 1px solid rgb(139, 239, 139,0.5);
 }
 #img-24{
     transform: 
@@ -272,13 +272,15 @@ body{
     translateY(calc(-1vmin))
     rotateZ(-115deg);
 
-    border: 1px solid yellow;
+    border: 1px solid rgb(250, 250, 111,0.5);
 }
 #img-25{
     transform: 
     translateZ(calc(-24 * var(--z-gap)))
     translateY(calc(-1vmin))
     rotateZ(-120deg);
+
+    border: 1px solid rgb(253, 185, 197,0.5);
 }
 
 
